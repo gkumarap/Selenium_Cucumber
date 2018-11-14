@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'cucumberGradle'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'io.cucumber:cucumber-java8:4.2.0'
+//    testComplie 'org.apache.commons:commons-io:1.3.2'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.14.0'
+    //complie group: 'org.apache.commons', name: 'commons.io', version: '1.3.2'
+    compile group: 'org.apache.commons', name: 'commons-io', version: '1.3.2'
+    compile group: 'io.cucumber', name: 'cucumber-testng', version: '4.2.0'
+}
+
