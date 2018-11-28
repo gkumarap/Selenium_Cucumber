@@ -7,4 +7,6 @@ import org.openqa.selenium.support.FindBy;
 public class Google {
     @FindBy(xpath = "//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[1]/input")
     public WebElement googleSearchField;
+    @FindBy(xpath = "//*[@id=\"tsf\"]/div[2]/div/div[3]/center/input[1]")
+    public WebElement googleSearchButton;
 }

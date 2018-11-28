@@ -1,3 +1,5 @@
+@demo-Feature
+
 Feature:demo
 
   Scenario: GoogleSearch
