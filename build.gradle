@@ -12,6 +12,8 @@ repositories {
 }
 
 dependencies {
+    compileOnly "org.projectlombok:lombok:1.18.0"
+    annotationProcessor 'org.projectlombok:lombok:1.18.8'
     testCompile 'io.cucumber:cucumber-java8:4.2.0'
 //    testComplie 'org.apache.commons:commons-io:1.3.2'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.14.0'
